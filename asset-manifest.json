@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/spotify-playlist-maker/static/css/main.34ca02bf.chunk.css",
+    "main.js": "/spotify-playlist-maker/static/js/main.73eaca1b.chunk.js",
+    "main.js.map": "/spotify-playlist-maker/static/js/main.73eaca1b.chunk.js.map",
+    "runtime-main.js": "/spotify-playlist-maker/static/js/runtime-main.9e9a2a25.js",
+    "runtime-main.js.map": "/spotify-playlist-maker/static/js/runtime-main.9e9a2a25.js.map",
+    "static/js/2.8e1baa02.chunk.js": "/spotify-playlist-maker/static/js/2.8e1baa02.chunk.js",
+    "static/js/2.8e1baa02.chunk.js.map": "/spotify-playlist-maker/static/js/2.8e1baa02.chunk.js.map",
+    "index.html": "/spotify-playlist-maker/index.html",
+    "precache-manifest.c61a6360ff45b5f9ce39077d0295b470.js": "/spotify-playlist-maker/precache-manifest.c61a6360ff45b5f9ce39077d0295b470.js",
+    "service-worker.js": "/spotify-playlist-maker/service-worker.js",
+    "static/css/main.34ca02bf.chunk.css.map": "/spotify-playlist-maker/static/css/main.34ca02bf.chunk.css.map",
+    "static/js/2.8e1baa02.chunk.js.LICENSE.txt": "/spotify-playlist-maker/static/js/2.8e1baa02.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/spotify-playlist-maker/static/media/ProximaNova-Regular.bf9f5d50.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e9a2a25.js",
+    "static/js/2.8e1baa02.chunk.js",
+    "static/css/main.34ca02bf.chunk.css",
+    "static/js/main.73eaca1b.chunk.js"
+  ]
+}
