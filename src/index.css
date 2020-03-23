@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  /* margin: 0; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: ProximaNova-Bold;
+  src: url("./fonts/ProximaNova-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: ProximaNova-Regular;
+  src: url("./fonts/ProximaNova-Regular.otf") format("opentype");
+}
+

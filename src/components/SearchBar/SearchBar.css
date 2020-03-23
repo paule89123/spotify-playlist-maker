@@ -1,0 +1,51 @@
+.SearchBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding-bottom: 1.5rem;
+}
+
+.SearchBar input {
+  width: 87.7%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0.9rem 1.2rem;
+  border: none;
+  border-radius: 100px;
+  margin-bottom: 1.5rem;
+  color: #010c3f;
+  font-family: ProximaNova-Regular;
+  font-size: 1rem;
+}
+
+.SearchBar input:focus {
+  outline: none;
+}
+
+.SearchButton {
+  cursor: pointer;
+  padding: 0.8rem 1.75rem;
+  border-radius: 100px;
+  background-color: rgba(24, 186, 215, 0.12);
+  text-align: center;
+  font-size: 14px;
+  -webkit-transition: background-color .25s;
+  transition: background-color .25s;
+  border: 0px;
+  color: #18bad7;
+  outline: none;
+  font-family: ProximaNova-Bold;
+}
+
+.SearchButton:hover {
+  background-color: rgba(24, 186, 215, 0.2);
+}
+/*# sourceMappingURL=SearchBar.css.map */

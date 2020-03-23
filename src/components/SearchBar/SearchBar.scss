@@ -1,0 +1,46 @@
+@import '../../global-css/variables.scss';
+
+.SearchBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 1.5rem;
+  // margin-bottom: 6.33rem;
+}
+
+.SearchBar input {
+  width: 87.7%;
+  box-sizing: border-box;
+  padding: 0.9rem 1.2rem;
+  border: none;
+  border-radius: 100px;
+  margin-bottom: 1.5rem;
+  color: #010c3f;
+  font-family: $regularFont;
+  // text-align: center;
+  font-size: 1rem;
+}
+
+.SearchBar input:focus {
+  outline: none;
+}
+
+.SearchButton {
+  cursor: pointer;
+  padding: 0.8rem 1.75rem;
+  border-radius: 100px;
+  background-color: $searchButtonBg;
+  text-align: center;
+  font-size: 14px;
+  transition: background-color .25s;
+  border: 0px;
+  color: $searchButtonText;
+  // font-weight: 500;
+  outline: none;
+  font-family: $boldFont;
+}
+
+.SearchButton:hover {
+  background-color: $searchButtonBgHover;
+}

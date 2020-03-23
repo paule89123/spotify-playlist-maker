@@ -1,0 +1,102 @@
+@import '../../global-css/variables.scss';
+
+body,
+html,
+#root {
+  // height: 100%;
+  padding-bottom: 20px;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: rgb(13, 13, 19);
+  color: white;
+  font-family: ProximaNova-Bold;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 2rem 0 1rem;
+  text-align: center;
+  font-family: $boldFont;
+  line-height: 1.05;
+  font-size: 2rem;
+}
+
+.title1 {
+  font-family: $regularFont;
+  font-size: 1rem;
+  letter-spacing: 0.25rem;
+  color: $offWhite;
+}
+
+.App {
+  // height: 100%;
+  margin-top: 130px;
+  /*background-image: url('./background_photo_desktop.jpg');*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  width: 950px;
+
+  &__left-column {
+    display: flex;
+    justify-content: center;
+    width: 47.5%;
+    flex-wrap: wrap;
+  }
+  
+  &__right-column {
+    display: flex;
+    justify-content: center;
+    width: 47.5%;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #root {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .App {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__left-column {
+      width: 70%;
+    }
+    &__right-column {
+      width: 70%;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    &__left-column {
+      width: 85%;
+    }
+    &__right-column {
+      width: 85%;
+    }
+  }
+}
